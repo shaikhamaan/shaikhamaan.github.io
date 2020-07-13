@@ -1,0 +1,121 @@
+.bs-example {
+    margin: 20px;
+
+}
+
+.navbar {
+    margin: 20px;
+    border-radius: 10px;
+}
+
+body {
+    font-size: 25px;
+    background-color: #222831;
+    color: #ECECEC;
+}
+
+section {
+    background-color: #30475E;
+    border-radius: 5px;
+}
+
+h3 {
+    margin: 10px;
+    color: #F2A365;
+}
+
+p {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-indent: 100px;
+}
+
+a.navbar-brand > img {
+    border-radius: 50%;
+    border: 3px grey solid;
+    margin-left: 10px;
+}
+
+a.navbar-brand span {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    padding-top: 12px;
+    display: inline-block;
+    padding-bottom: 12px;
+}
+
+button {
+    border: 0;
+}
+
+.navi-but {
+
+    padding-bottom: 12px;
+    padding-top: 6px;
+    margin-left: 10px;
+    margin-right: 50px;
+    display: block;
+}
+
+.navi-but-flex {
+
+    padding-bottom: 12px;
+    padding-top: 6px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+#navbarCollapse1 {
+    margin-left: 20px;
+
+}
+
+#gallery {
+    margin-right: 500px;
+
+}
+
+.text-center-img {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    border: 3px grey solid;
+
+}
+
+h1.text-center {
+    margin: 10px;
+}
+
+h3.home-h3 {
+ padding: 5px; 
+}
+section#blog{
+    padding: 15px;
+}
+div.py-3 {
+    padding: 20px;
+    background-color:#3E424B;
+    margin-top: 10px;
+}
+figure {
+    background-color: #F2A365;
+    display: inline-block;
+    box-shadow: 3px 3px #3E424B;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 23px;
+    margin-right: 23px;
+    
+}
+figcaption {
+    color: black;
+    padding: 5px;
+    margin-left: 10px;
+}
+figure>img{
+    border-radius: 10px;
+    
+}
