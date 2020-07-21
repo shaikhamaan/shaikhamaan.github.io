@@ -73,7 +73,7 @@ button {
 }
 
 #gallery {
-    margin-right: 500px;
+    margin-right: 450px;
 
 }
 
@@ -94,6 +94,9 @@ h3.home-h3 {
 }
 section#blog{
     padding: 15px;
+}
+footer {
+     height: 50px;
 }
 div.py-3 {
     padding: 20px;
@@ -116,5 +119,11 @@ figcaption {
 }
 figure>img{
     border-radius: 10px;
+    max-height: 100%;
+    max-width: 100%;
     
+}
+.container {
+     min-height: calc(100vh - 70px);
+    max-width: 86%;
 }
