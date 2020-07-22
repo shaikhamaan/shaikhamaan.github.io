@@ -29,11 +29,11 @@
                 content: "";
                 clear: both;
                 display: table;
-               
+
             }
-            
+
             .container {
-               width: 100%;
+                width: 100%;
             }
 
         }
@@ -42,40 +42,59 @@
             .align-left {
                 float: left;
                 width: 100%;
-                margin: 3px;;
-                max-height: 350px;
-                max-width: 450px;
+                margin: 3px;
+                max-width: 500px;
+            }
+
+            .align-left-portrait {
+                float: left;
+                width: 100%;
+                margin: 3px;
+                max-height: 430px;
             }
 
             .align-center {
                 width: 100%;
-                margin: 3px;;
-                max-height: 350px;
-                max-width: 450px;
+                margin: 3px;
+                max-width: 500px;
+
+            }
+
+            .align-center-portrait {
+                width: 100%;
+                margin: 3px;
+                max-height: 430px;
+
             }
 
             .align-right {
                 float: right;
                 width: 100%;
-                margin: 3px;;
-                max-height: 350px;
-                max-width: 450px;
-                
+                margin: 3px;
+                max-width: 500px;
+
+            }
+
+            .align-right-portrait {
+                float: right;
+                width: 100%;
+                margin: 3px;
+                max-height: 430px;
             }
 
             .column::after {
                 content: "";
                 clear: both;
                 display: table;
-              
+
             }
-            
-            #blog {
+
+            .rows {
                 display: flex;
                 flex-direction: row;
                 flex-wrap: nowrap;
                 justify-content: space-between;
-        
+
             }
 
 
@@ -133,7 +152,7 @@
         </nav>
     </div>
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-12">
                 <h1>
@@ -141,20 +160,36 @@
                 </h1>
             </div>
         </div>
-        <section class="col-xs-12 column" id="blog">
-            <figure class="align-left">
-                <img class="" src="css/gallery/img-idol.jpeg">
-                <figcaption>Saraswati Idol</figcaption>
-            </figure>
-            <figure class="align-center">
-                <img class="" src="css/gallery/img-mess.jpg">
-                <figcaption>Royal Boys Mess</figcaption>
-            </figure>
-            <figure class="align-right">
-                <img class="" src="css/gallery/img-girls-hostel.jpeg">
-                <figcaption>Boys Hostel Ground</figcaption>
-            </figure>
-        </section>
+        <div class="col-xs-12 column">
+            <section class="rows">
+                <figure class="align-left">
+                    <img class="" src="css/gallery/img-idol.jpeg">
+                    <figcaption>Saraswati Idol</figcaption>
+                </figure>
+                <figure class="align-center">
+                    <img class="" src="css/gallery/img-mess.jpg">
+                    <figcaption>Royal Boys Mess</figcaption>
+                </figure>
+                <figure class="align-right">
+                    <img class="" src="css/gallery/img-girls-hostel.jpeg">
+                    <figcaption>Boys Hostel Ground</figcaption>
+                </figure>
+            </section>
+            <section class="rows">
+                <figure class="align-left-portrait">
+                    <img class="" src="css/gallery/img-flower-portrait.jpeg">
+                    <figcaption>Flower Portrait</figcaption>
+                </figure>
+                <figure class="align-center-portrait">
+                    <img class="" src="css/gallery/img-flower-landscape.jpeg">
+                    <figcaption>Flower Portrait</figcaption>
+                </figure>
+                <figure class="align-right-portrait">
+                    <img class="" src="css/gallery/img-flower-portrait-1.jpg">
+                    <figcaption>Flower Portrait</figcaption>
+                </figure>
+            </section>
+        </div>
     </div>
     <footer class="">
         <div class="text-center py-3">© All right reserved:

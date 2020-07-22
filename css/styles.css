@@ -96,8 +96,9 @@ h3.home-h3 {
     padding: 5px;
 }
 
-section#blog {
+section.rows {
     padding: 15px;
+    margin: 10px;
 }
 
 footer {
@@ -112,7 +113,6 @@ div.py-3 {
 
 figure {
     background-color: #F2A365;
-    display: inline-block;
     box-shadow: 3px 3px #3E424B;
     border-radius: 10px;
     padding: 10px;
@@ -134,7 +134,7 @@ figure > img {
 }
 
 .container {
-    min-height: calc(100vh - 70px);
+    min-height: calc(200vh - 20px);
 
 }
 
