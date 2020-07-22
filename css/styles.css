@@ -93,40 +93,48 @@ h1.text-center {
 }
 
 h3.home-h3 {
- padding: 5px; 
+    padding: 5px;
 }
-section#blog{
+
+section#blog {
     padding: 15px;
 }
+
 footer {
-     height: 50px;
+    height: 50px;
 }
+
 div.py-3 {
     padding: 20px;
-    background-color:#3E424B;
+    background-color: #3E424B;
     margin-top: 10px;
 }
+
 figure {
     background-color: #F2A365;
     display: inline-block;
     box-shadow: 3px 3px #3E424B;
     border-radius: 10px;
     padding: 10px;
-    
-    
+
+
 }
+
 figcaption {
     color: black;
     padding: 5px;
     margin-left: 10px;
 }
-figure>img{
+
+figure > img {
     border-radius: 10px;
     max-height: 100%;
     max-width: 100%;
-    
+
 }
+
 .container {
-     min-height: calc(100vh - 70px);
- 
+    min-height: calc(100vh - 70px);
+
 }
+
