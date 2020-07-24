@@ -10,7 +10,6 @@
 }
 
 body {
-    font-size: inherit;
     background-color: #222831;
     color: #ECECEC;
 }
@@ -19,7 +18,11 @@ section {
     background-color: #30475E;
     border-radius: 5px;
 }
-
+section#index {
+    background-color: #30475E;
+    border-radius: 5px;
+    padding: 8px;
+}
 h3 {
     margin: 10px;
     color: #F2A365;
@@ -29,8 +32,8 @@ p {
     margin-left: 10px;
     margin-right: 10px;
     text-indent: 100px;
-    text-justify: inter-character;
-    font-size: 3vm;
+
+
 }
 
 a.navbar-brand > img {
@@ -134,7 +137,7 @@ figure > img {
 }
 
 .container {
-    min-height: calc(200vh - 20px);
+    min-height: calc(120vh - 20px);
 
 }
 
