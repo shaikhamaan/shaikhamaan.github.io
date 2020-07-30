@@ -18,23 +18,18 @@ section {
     background-color: #30475E;
     border-radius: 5px;
 }
+
 section#index {
     background-color: #30475E;
     border-radius: 5px;
     padding: 8px;
 }
+
 h3 {
     margin: 10px;
     color: #F2A365;
 }
 
-p {
-    margin-left: 10px;
-    margin-right: 10px;
-    text-indent: 100px;
-    font-size: 2.2vw;
-
-}
 
 a.navbar-brand > img {
     border-radius: 50%;
@@ -114,13 +109,12 @@ div.py-3 {
     margin-top: 10px;
 }
 
-figure {
+section.rows figure {
     background-color: #F2A365;
     box-shadow: 3px 3px #3E424B;
     border-radius: 10px;
     padding: 10px;
-
-
+    display: inline-block;
 }
 
 figcaption {
@@ -129,7 +123,7 @@ figcaption {
     margin-left: 10px;
 }
 
-figure > img {
+figure img {
     border-radius: 10px;
     max-height: 100%;
     max-width: 100%;
@@ -138,6 +132,33 @@ figure > img {
 
 .container {
     min-height: calc(100vh - 20px);
-
 }
+
+div.div-1 figure {
+    background-color: #F2A365;
+    box-shadow: 3px 3px #3E424B;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    margin: 0px;
+}
+
+
+section#blog1 {
+    padding: 10px;
+}
+
+section#blog1 div {
+    display: inline-block;
+}
+
+.div-2 {
+   position: relative;
+}
+
+section a:link {
+    text-decoration: none;
+    color: white;
+}
+
 

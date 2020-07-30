@@ -5,6 +5,46 @@
     <title>Blog</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+        @media (max-width:1070px) {
+            section#blog1 img {
+
+            }
+        }
+
+        @media(min-width:1071px) {
+            section#blog1 img {
+                max-width: 300px;
+                float: left;
+            }
+
+            #blog1 {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+            }
+
+            p.date {
+                display: inline;
+                left: 0px;
+                bottom: 0px;
+                position: absolute;
+
+            }
+
+            p.by {
+                display: inline;
+                position: absolute;
+                right: 0px;
+                bottom: 0px;
+                top:
+            }
+            .div-2 {
+                margin-left: 20px;
+            }
+
+        }
+    </style>
     <link rel="icon" href="css/blog-icon-213221/blog-icon-152-213221.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -26,11 +66,11 @@
             <div class="collapse navbar-collapse" id="navbarCollapse1">
 
 
-                <div class="navbar-nav" >
+                <div class="navbar-nav">
                     <a href="index.html" class="nav-item nav-link navi-but" id="home">Home</a>
                     <a href="blog.html" class="nav-item nav-link navi-but active" id="blog">Blog</a>
                     <a href="gallery.html" class="nav-item nav-link navi-but" id="gallery">Gallery</a>
-                
+
                     <div class="navbar-nav flex-row" id="flex">
                         <a href="https://www.linkedin.com/in/amaan-shaikh-973009194/" class="nav-link waves-effect waves-light nav-item navi-but-flex">
                             <i class="fab fa-linkedin"></i>
@@ -63,7 +103,19 @@
                 </h1>
             </div>
         </div>
-        <section class="col-xs-12" id="blog">
+        <section class="col-xs-12" id="blog1">
+
+            <div class="div-1">
+                <figure>
+                    <a href="blog1.html"><img src="css/gallery/img-idol.jpeg"></a>
+                </figure>
+            </div>
+            <div class="div-2">
+                <h1>Lorem ipsum dolor sit amet</h1>
+                <p><a href="blog1.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</a></p>
+                <p class="by">By: Amaan Shaikh</p>
+                <p class="date">Date: 25th November 2019</p>
+            </div>
 
         </section>
         <section class="col-xs-12" id="home">
@@ -74,14 +126,12 @@
         </section>
 
     </div>
-<footer class="">
+    <footer class="">
         <div class="text-center py-3">© All right reserved:
-                : Amaan Shaikh
-  </div>
+            : Amaan Shaikh
+        </div>
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-</body>
-
-</html>
+</body></html>
