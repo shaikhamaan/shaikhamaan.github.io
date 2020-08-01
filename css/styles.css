@@ -90,6 +90,10 @@ h1.text-center {
     margin: 10px;
 }
 
+h1{
+  margin-left: 30px;
+}
+
 h3.home-h3 {
     padding: 5px;
 }
@@ -159,6 +163,16 @@ section#blog1 div {
 section a:link {
     text-decoration: none;
     color: white;
+}
+h2.land {
+    text-align:right;
+    margin-right: 20px;
+
+}
+h2.port {
+    text-align: left;
+    margin-left: 5px;
+
 }
 
 
