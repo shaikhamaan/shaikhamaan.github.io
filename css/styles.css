@@ -32,10 +32,6 @@ h3 {
 }
 
 
-section.rows {
-    padding: 3px 15px 3px 15px;
-    margin: 0px 10px 0px 10px;
-}
 
 div.py-3 {
     padding: 20px;
@@ -580,12 +576,6 @@ h2.port {
         transform: scale(1.05);
     }
 
-    .align-right{
-        margin-bottom: 8px;
-    }
-    section.rows {
-        margin-bottom: 10px;
-    }
 }
 
 @media(min-width:1071px) {
