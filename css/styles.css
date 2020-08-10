@@ -34,7 +34,7 @@ h3 {
 
 section.rows {
     padding: 3px 15px 3px 15px;
-    margin: 0px 10px 0px 10px ;
+    margin: 0px 10px 0px 10px;
 }
 
 div.py-3 {
@@ -88,10 +88,6 @@ section#blog1 div {
 section a:link {
     text-decoration: none;
     color: #696969;
-}
-
-div.cont {
-   width: 100%;
 }
 
 /*for index.html and navbar*/
@@ -563,23 +559,32 @@ h2.land {
     padding-top: -10px;
     margin-bottom: 8px;
 }
-h2.port,h2.land {
+
+h2.port,
+h2.land {
     padding-left: 20px;
 }
+
 h2.port {
     margin-bottom: 8px;
 }
+
 @media(max-width:1071px) {
     figure {
         transition: transform .2s;
         display: block;
+        margin-bottom: 30px;
     }
 
     figure {
-        transform: scale(1.01);
+        transform: scale(1.05);
     }
-    .align-right {
+
+    .align-right{
         margin-bottom: 8px;
+    }
+    section.rows {
+        margin-bottom: 10px;
     }
 }
 
