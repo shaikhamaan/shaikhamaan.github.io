@@ -618,15 +618,15 @@ div.div-3 {
         justify-content: space-between;
 
     }
+}
 
-    figure {
-        transition: transform .2s;
-        display: block;
-    }
+figure {
+    transition: transform .2s;
+    display: block;
+}
 
-    figure:hover {
-        transform: scale(1.09);
-    }
+figure:hover {
+    transform: scale(1.09);
 }
 
 /*gallery responsive*/
