@@ -18,9 +18,7 @@ html {
     width: 100%;
 }
 
-section {
-    border-radius: 5px;
-}
+
 
 section#index {
     padding: 8px;
@@ -31,7 +29,9 @@ h3 {
     color: #F2A365;
 }
 
-
+.cont-in {
+    min-height: 86vh;
+}
 
 div.py-3 {
     padding: 20px;
@@ -69,9 +69,8 @@ div.div-1 figure {
 }
 
 
-section#blog1 {
-    padding: 10px;
-}
+
+
 
 section#blog1 div {
     display: inline-block;
@@ -92,7 +91,8 @@ section a:link {
         margin-left: 10px;
         margin-right: 10px;
         text-indent: 100px;
-        font-size: 25px;
+        font-size: 30px;
+        text-align: justify;
         ;
     }
 }
@@ -103,6 +103,7 @@ section a:link {
         margin-right: 10px;
         text-indent: 25px;
         font-size: 4vw;
+        text-align: justify;
     }
 }
 
@@ -151,7 +152,6 @@ nav {
 
 .nav_links a {
     text-decoration: none;
-     !important;
     letter-spacing: 3px;
     font-size: 25px;
     color: dimgrey;
@@ -185,7 +185,13 @@ nav h2 span {
     color: black;
 }
 
-ul.nav_links > li.brand {}
+.brand_head {
+    transform: translateX(-150%);
+}
+.stable {
+    transform: translateX(0%);
+    transition: transform .5s ease-in;
+}
 
 @media screen and (max-width:1024px) {
     .nav_links {
@@ -475,6 +481,24 @@ div.div-3 {
 
     }
 
+    section#blog1:hover {
+        transform: scale(1.01);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+
+    }
+
+    section#blog1 {
+        padding: 10px 20px 10px 10px;
+        margin: 10px;
+        box-shadow: 100px 100px 100px 100px rgba(0, 0, 0, 0), 100px 100px 100px 100px 
+        rgba(0, 0, 0, 0);
+
+    }
+    .div-2 h1 {
+        padding-top: 50px;
+    }
+
+
 
 }
 
@@ -505,77 +529,111 @@ div.div-3 {
         display: block;
         margin: auto;
     }
+
+    .div-2 h1 {
+        padding-top: 10px;
+    }
+
+    .col-12 h2.land {
+        margin-left: 20px;
+        margin-top: 0px;
+        margin-bottom: -15px;
+
+    }
+
+    section#blog1 {
+        padding: 10px 10px 10px 10px;
+        margin: 10px;
+        box-shadow: 100px 100px 100px 100px rgba(0, 0, 0, 0), 100px 100px 100px 100px rgba(0, 0, 0, 0);
+
+    }
 }
 
 /*end for footer*/
 /*blog responsive*/
-@media (max-width:1070px) {
-    section#blog1 img {}
+
+@media(max-width:1070px){
+    
+    .blog-section-img img {
+        margin: auto;
+        display: block;
+        max-height: 200px;
+    }
+    .blog-section-img{
+        background-color:#7e7d7d;
+    }
+    .blog-section-head {
+        text-align: justify;
+        padding: 10px;
+    }
+    .blog-section p {
+        margin: 0;
+        font-size: 18px;
+    }
 }
-
-@media(min-width:1071px) {
-    section#blog1 img {
-        max-width: 300px;
-        float: left;
-    }
-
-    #blog1 {
+@media(min-width:1071px){
+    .blog-section {
         display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
+        justify-items: center;
+        margin-bottom: 10px;
+        
     }
-
-    p.date {
-        display: inline;
-        left: 0px;
-        bottom: 0px;
-        position: absolute;
-
+    .blog-section-head {
+        padding: 10px;
+        display: flex;
+        flex-direction:column;
     }
-
-    p.by {
-        display: inline;
-        position: absolute;
-        right: 0px;
-        bottom: 0px;
-        top:
+    .blog-section-head:nth-child(3){
+        flex:2;
     }
-
-    .div-2 {
-        margin-left: 20px;
+    .blog-section-img {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        background-color:#7e7d7d;
     }
-
+    .blog-section-img img {
+        max-width: 250px;
+    }
+    
+}
+a.blog-link {
+    text-decoration: none;
+    color: #696969;
+}
+h4.blog-section-heading {
+    color: rgb(56, 52, 52);
 }
 
 /*blog responsive closed*/
 
 /*gallery responsive*/
-h2.land {
-    margin: 0;
-    padding-top: -10px;
-}
-h2.port {
-    margin-top: 9px;
-    padding-bottom: 9px;
-    padding-left: 10px;
-    margin-bottom: 0px;
-}
+
+
+
 
 @media(max-width:1071px) {
     figure {
         transition: transform .2s;
         display: block;
-        margin-bottom: 30px;
+
+    }
+
+    h2.port {
+        margin-top: 15px;
+        padding-bottom: 9px;
+        padding-left: 10px;
+        margin-bottom: 10px;
+
     }
 
     figure {
         transform: scale(1.05);
+        margin: 0px;
     }
+
     .align-right.before-port {
         margin-bottom: 0px;
-    }
-    h2.land {
-        margin-bottom: 6px;
     }
 }
 
@@ -584,7 +642,7 @@ h2.port {
         float: left;
         width: 100%;
         margin: 3px;
-        max-width: 500px;
+        max-width: 600px;
     }
 
     .align-left-portrait {
@@ -597,7 +655,7 @@ h2.port {
     .align-center {
         width: 100%;
         margin: 3px;
-        max-width: 500px;
+
 
     }
 
@@ -611,7 +669,7 @@ h2.port {
         float: right;
         width: 100%;
         margin: 3px;
-        max-width: 500px;
+        max-width: 600px;
 
     }
 
@@ -635,7 +693,7 @@ h2.port {
         display: block;
     }
 
-    figure:hover {
+    .gallery figure:hover {
         transform: scale(1.09);
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 
