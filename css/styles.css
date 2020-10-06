@@ -39,12 +39,7 @@ div.py-3 {
     margin-top: 10px;
 }
 
-section.rows figure {
-    background-color: #dee3e3;
-    border-radius: 3px;
-    padding: 10px;
-    display: inline-block;
-}
+
 
 figcaption {
     color: black;
@@ -95,6 +90,12 @@ section a:link {
         text-align: justify;
         ;
     }
+    section.rows figure {
+        background-color: #dee3e3;
+        border-radius: 3px;
+        padding: 10px;
+        display: inline-block;
+    }
 }
 
 @media (max-width:1070px) {
@@ -104,6 +105,12 @@ section a:link {
         text-indent: 25px;
         font-size: 4vw;
         text-align: justify;
+    }
+    section.rows figure {
+        background-color: #dee3e3;
+        border-radius: 3px;
+        padding: 17px;
+        display: inline-block;
     }
 }
 
@@ -190,7 +197,7 @@ nav h2 span {
 }
 .stable {
     transform: translateX(0%);
-    transition: transform .5s ease-in;
+    transition: transform 1s ease-in;
 }
 
 @media screen and (max-width:1024px) {
@@ -498,6 +505,21 @@ div.div-3 {
         padding-top: 50px;
     }
 
+    .col-12 h2.land {
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 3px;
+
+    }
+
+    
+    h2.port {
+        margin-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        margin-bottom: 0.5px;
+
+    }
 
 
 }
@@ -535,9 +557,18 @@ div.div-3 {
     }
 
     .col-12 h2.land {
-        margin-left: 20px;
-        margin-top: 0px;
-        margin-bottom: -15px;
+        margin-left: 7.2px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+
+    }
+
+    
+    h2.port {
+        margin-top: 10px;
+        padding-bottom: 9px;
+        padding-left: 10px;
+        margin-bottom: 5px;
 
     }
 
@@ -619,13 +650,6 @@ h4.blog-section-heading {
 
     }
 
-    h2.port {
-        margin-top: 15px;
-        padding-bottom: 9px;
-        padding-left: 10px;
-        margin-bottom: 10px;
-
-    }
 
     figure {
         transform: scale(1.05);
