@@ -588,7 +588,7 @@ div.div-3 {
     .blog-section-img img {
         margin: auto;
         display: block;
-        max-height: 200px;
+        max-height: 150px;
     }
     .blog-section-img{
         background-color:#7e7d7d;
